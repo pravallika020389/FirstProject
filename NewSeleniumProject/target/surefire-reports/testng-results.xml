@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T23:00:25 CDT" name="MySuite" finished-at="2024-03-18T23:00:25 CDT" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T23:00:25 CDT" name="MyTest" finished-at="2024-03-18T23:00:25 CDT" duration-ms="45">
+      <class name="com.Testng.Test.TestNgTestClassOne">
+        <test-method signature="testscript_2(java.lang.String)[pri:0, instance:com.Testng.Test.TestNgTestClassOne@53fdffa1]" started-at="2024-03-18T23:00:25 CDT" name="testscript_2" finished-at="2024-03-18T23:00:25 CDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscript_2 -->
+        <test-method signature="testscript_1()[pri:0, instance:com.Testng.Test.TestNgTestClassOne@53fdffa1]" started-at="2024-03-18T23:00:25 CDT" name="testscript_1" finished-at="2024-03-18T23:00:25 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscript_1 -->
+      </class> <!-- com.Testng.Test.TestNgTestClassOne -->
+      <class name="com.Testng.Test.TestNgTestClassTwo">
+        <test-method signature="testscript_1(java.lang.String,java.lang.String)[pri:0, instance:com.Testng.Test.TestNgTestClassTwo@4d465b11]" started-at="2024-03-18T23:00:25 CDT" name="testscript_1" finished-at="2024-03-18T23:00:25 CDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.3.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscript_1 -->
+        <test-method signature="testscript_2()[pri:0, instance:com.Testng.Test.TestNgTestClassTwo@4d465b11]" started-at="2024-03-18T23:00:25 CDT" name="testscript_2" finished-at="2024-03-18T23:00:25 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscript_2 -->
+      </class> <!-- com.Testng.Test.TestNgTestClassTwo -->
+      <class name="com.Testng.Test.TestNgTestClassThree">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.Testng.Test.TestNgTestClassThree@5fbdfdcf]" started-at="2024-03-18T23:00:25 CDT" name="setUpTest" finished-at="2024-03-18T23:00:25 CDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.Testng.Test.TestNgTestClassThree@5fbdfdcf]" started-at="2024-03-18T23:00:25 CDT" name="setUpMethod" finished-at="2024-03-18T23:00:25 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testScript_1()[pri:0, instance:com.Testng.Test.TestNgTestClassThree@5fbdfdcf]" started-at="2024-03-18T23:00:25 CDT" name="testScript_1" finished-at="2024-03-18T23:00:25 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript_1 -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.Testng.Test.TestNgTestClassThree@5fbdfdcf]" started-at="2024-03-18T23:00:25 CDT" name="tearDownMethod" finished-at="2024-03-18T23:00:25 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.Testng.Test.TestNgTestClassThree@5fbdfdcf]" started-at="2024-03-18T23:00:25 CDT" name="tearDownTest" finished-at="2024-03-18T23:00:25 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.Testng.Test.TestNgTestClassThree -->
+    </test> <!-- MyTest -->
+  </suite> <!-- MySuite -->
+</testng-results>
